@@ -9537,6 +9537,7 @@ name = "pallet-randomness"
 version = "0.1.0"
 source = "git+https://github.com/Moonsong-Labs/moonkit?branch=moonbeam-polkadot-v1.1.0#6c6cfed71768a4fa39d4a4e6030d2667ebc4bcfe"
 dependencies = [
+ "environmental",
  "frame-benchmarking",
  "frame-support",
  "frame-system",
